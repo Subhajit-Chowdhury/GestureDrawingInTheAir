@@ -1,5 +1,7 @@
 # Gesture Drawing in the Air — AI Spatial Interface
 
+🌐 **Live Demo**: [https://gesture-drawing-air.netlify.app/](https://gesture-drawing-air.netlify.app/)
+
 Draw, move, and create in the air using just your hands — no pen, no paper, just your fingers!
 
 This is a smart web app that uses your webcam to track your hand movements. Think of it like a digital canvas floating in front of you. You draw with one hand and control your drawings with the other — like something out of a sci-fi movie!
