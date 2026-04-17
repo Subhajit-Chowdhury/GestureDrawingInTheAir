@@ -1,6 +1,6 @@
 # ✨ Gesture Drawing in the Air — AI Spatial Interface
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://gesture-drawing-air.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://gesture-drawing-air.netlify.app/){:target="_blank"}
 [![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://react.dev)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=flat-square)](https://google.github.io/mediapipe/solutions/hands)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
