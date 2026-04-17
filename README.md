@@ -1,120 +1,116 @@
-# Gesture Drawing in the Air — AI Spatial Interface
+# ✨ Gesture Drawing in the Air — AI Spatial Interface
 
-🌐 **Live Demo**: [https://gesture-drawing-air.netlify.app/](https://gesture-drawing-air.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://gesture-drawing-air.netlify.app/)
+[![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://react.dev)
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=flat-square)](https://google.github.io/mediapipe/solutions/hands)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-Draw, move, and create in the air using just your hands — no pen, no paper, just your fingers!
-
-This is a smart web app that uses your webcam to track your hand movements. Think of it like a digital canvas floating in front of you. You draw with one hand and control your drawings with the other — like something out of a sci-fi movie!
-
----
-
-## What Can You Do?
-
-### ✋ Draw with Your Right Hand
-- **Point your index finger up** → Start drawing
-- **Pinch your thumb and finger** → Erase parts of your drawing
-- **Make a fist** → Clear everything and start fresh
-
-### 🖐️ Control with Your Left Hand
-- **Show two fingers** → Grab and move your drawing
-- **Pinch and spread fingers** → Make your drawing bigger or smaller
-- **Open your palm** → Rotate your drawing around
+> 🎯 **Draw in the air with your hands!** No pen, no paper — just your fingers create magic on a digital canvas.
 
 ---
 
-## How It Works (Simple Explanation)
+## 🌟 Features
 
-### Step 1: The Camera Watches You
-The app turns on your webcam. It looks for your hands and follows every finger movement in real-time.
-
-### Step 2: Your Right Hand Draws
-When you raise your index finger, the app starts recording your movement. Wherever your finger goes, a glowing line follows — like a magical pen in the air!
-
-### Step 3: Your Left Hand Controls
-Want to move what you drew? Use your left hand. Show two fingers near your drawing, then move your hand — the drawing follows! Pinch and spread to resize. Open your palm to spin it around.
-
-### Step 4: Smart Rendering
-All your strokes are saved as points. When you move, scale, or rotate something, the app calculates the new position instantly. Your original drawing stays safe — nothing gets permanently changed!
-
----
-
-## Why This Is Cool?
-
-- **No tools needed** — Just your hands
-- **Non-destructive** — Your original strokes never get ruined
-- **Smooth feel** — Movements have natural inertia, like sliding on ice
-- **Snap angles** — Rotation snaps to 45° angles for perfect alignment
-- **Beautiful design** — Glassmorphism UI with neon glow effects
-- **Fast** — Runs at 60 frames per second
-
----
-
-## 🔧 What Powers This App?
-
-| Technology | What It Does |
-|------------|---------------|
-| React + Vite | Makes the app fast and responsive |
-| MediaPipe Hands | Tracks your hand and finger positions |
-| Framer Motion | Adds smooth animations |
-| Lucide React | Provides nice icons |
-| Vanilla CSS | Creates the glassmorphism look |
+- ✋ **Draw with right hand** — Point your index finger to draw
+- 🖐️ **Control with left hand** — Move, scale, and rotate your creation
+- ⚡ **60 FPS** — Smooth, real-time hand tracking
+- 🎨 **Beautiful UI** — Glassmorphism with neon glow effects
+- 🔄 **Non-destructive** — Original strokes never get ruined
 
 ---
 
 ## 🎮 Complete Gesture Guide
 
-### Right Hand (Drawing)
+### Right Hand — Drawing
 
-| Hand Shape | Action |
-|------------|--------|
-| ☝️ Index finger up | Start a new stroke |
-| 🤏 Pinch (thumb + index) | Erase where your finger touches |
-| ✊ Fist | Delete everything |
+| Gesture | Action |
+|---------|--------|
+| ☝️ Index finger up | Start drawing |
+| 🤏 Pinch (thumb + index) | Erase at touch point |
+| ✊ Fist | Clear all drawings |
 
-### Left Hand (Controlling)
+### Left Hand — Controlling
 
-| Hand Shape | Action | What You See |
-|------------|--------|---------------|
-| ✌️ Two fingers | Move a stroke | Blue glow appears |
-| 🤏 Pinch + spread | Scale (resize) | Rings show the size |
-| 🤚 Open palm | Rotate | Orange arc appears |
+| Gesture | Action |
+|---------|--------|
+| ✌️ Two fingers | Move your drawing |
+| 🤏 Pinch + spread | Scale (resize) up/down |
+| 🤚 Open palm | Rotate around center |
 
 ---
 
-## 🚀 How to Run This
+## 🚀 Quick Start Guide
 
-### Step 1: Get the Code Ready
-Open your terminal or command prompt and type:
+### For New Users — How to Draw Successfully
 
-```bash
-npm install
-```
+1. **Open the app**: Visit [https://gesture-drawing-air.netlify.app/](https://gesture-drawing-air.netlify.app/)
 
-This downloads all the required tools and libraries.
+2. **Allow camera access** — Click "Allow" when prompted
 
-### Step 2: Start the App
-After installation completes, type:
+3. **Position yourself**:
+   - Stand or sit 1-2 meters from camera
+   - Face the camera directly
+   - Use a plain background (plain wall works best)
+   - Ensure good lighting on your hands
 
-```bash
-npm run dev
-```
+4. **Start drawing**:
+   - Raise your **right hand** with **index finger pointing up** — a glowing line will follow your finger
+   - To stop drawing, lower your index finger or show your palm
 
-Wait a few seconds. You should see a local web address (like `http://localhost:5173`).
+5. **Transform your drawing**:
+   - Use your **left hand** to control
+   - Show **two fingers** and move to drag
+   - **Pinch and pull apart** to resize
+   - **Show open palm** and move in a circle to rotate
 
-### Step 3: Use It!
-1. Open the link in your browser
-2. Allow camera access when asked
-3. Stand back so your hands are visible
-4. Start drawing!
+6. **Eraser**:
+   - With right hand, **pinch thumb and index** together to erase parts
+
+7. **Clear all**:
+   - Make a **fist** with your right hand to clear everything
 
 ---
 
 ## 💡 Tips for Best Experience
 
-- **Good lighting** — Make sure your face and hands are well-lit
-- **Face the camera** — Sit or stand so your hands are clearly visible
-- **Background matters** — A plain wall works better than a busy room
-- **Practice** — It takes a minute to get used to. Try each gesture slowly!
+- ✅ Good lighting on your hands and face
+- ✅ Plain, uncluttered background
+- ✅ Face the camera directly
+- ✅ Keep hands within the camera frame
+- ✅ Practice each gesture slowly first
+- ❌ Avoid wearing gloves or sleeves covering wrists
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React + Vite | Fast, responsive UI |
+| MediaPipe Hands | Real-time hand tracking |
+| Framer Motion | Smooth animations |
+| Three.js | 3D rendering |
+| Lucide React | Icons |
+
+---
+
+## 🔧 Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Subhajit-Chowdhury/GestureDrawingInTheAir.git
+
+# Go to folder
+cd GestureDrawingInTheAir
+
+# Install dependencies
+npm install
+
+# Start the app
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
 
 ---
 
@@ -122,8 +118,8 @@ Wait a few seconds. You should see a local web address (like `http://localhost:5
 
 **Subhajit Chowdhury**
 
-🐙 GitHub: [Subhajit-Chowdhury](https://github.com/Subhajit-Chowdhury)
+🐙 [GitHub](https://github.com/Subhajit-Chowdhury) | 📸 [Instagram](https://instagram.com/subhajit.chowdhury)
 
 ---
 
-*Crafted with cosmic passion for AI and Spatial Computing — By Subhajit Chowdhury.*
+*⭐ Star this repo if you found it useful!*
