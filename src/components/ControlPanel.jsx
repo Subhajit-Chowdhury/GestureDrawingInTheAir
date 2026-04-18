@@ -11,14 +11,15 @@ import {
   EyeOff,
   Zap,
   MousePointer2,
-  HelpCircle
+  HelpCircle,
+  Globe
 } from 'lucide-react';
 
-const InstagramIcon = ({ size = 20 }) => (
+const PortfolioIcon = ({ size = 20 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+    <circle cx="12" cy="12" r="10" />
+    <line x1="2" y1="12" x2="22" y2="12" />
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
   </svg>
 );
 
@@ -200,7 +201,7 @@ const ControlPanel = ({
         justifyContent: 'center',
       }}>
         <a
-          href="https://www.instagram.com/code.akshat.in/"
+          href="https://subhajit-chowdhury-portfolio.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -209,10 +210,10 @@ const ControlPanel = ({
             display: 'flex',
             alignItems: 'center',
           }}
-          onMouseEnter={e => { e.currentTarget.style.color = '#E1306C'; e.currentTarget.style.transform = 'scale(1.2)'; }}
+          onMouseEnter={e => { e.currentTarget.style.color = '#4FC3F7'; e.currentTarget.style.transform = 'scale(1.2)'; }}
           onMouseLeave={e => { e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.transform = 'scale(1)'; }}
         >
-          <InstagramIcon size={20} />
+          <PortfolioIcon size={20} />
         </a>
         <a
           href="https://github.com/Subhajit-Chowdhury"

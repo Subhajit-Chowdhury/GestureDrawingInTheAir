@@ -119,7 +119,7 @@ Open `http://localhost:5173` in your browser.
 
 **Subhajit Chowdhury**
 
-🐙 [GitHub](https://github.com/Subhajit-Chowdhury) | 📸 [Instagram](https://instagram.com/subhajit.chowdhury)
+🐙 [GitHub](https://github.com/Subhajit-Chowdhury) | 🌐 [Portfolio](https://subhajit-chowdhury-portfolio.vercel.app/)
 
 ---
 
